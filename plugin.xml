@@ -10,9 +10,11 @@
   <license>Apache 2.0</license>
   <keywords>cordova,zalo,zalo login,giaidieu,drupalapp</keywords>
 
+  <!--
   <preference name="AppID" />
   <preference name="PackageName" />
   <preference name="HashKey" />
+  -->
 
   <js-module src="www/zalo.js" name="Zalo">
     <clobbers target="Zalo" />
