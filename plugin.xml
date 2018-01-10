@@ -26,6 +26,27 @@
         <param name="onload" value="true" />
       </feature>
     </config-file>
+    
+    <!-- Permissions -->
+    <config-file target="AndroidManifest.xml" parent="/manifest">
+      <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+      <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+      <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+      <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    </config-file>
+
+    <config-file target="AndroidManifest.xml" parent="/manifest/application">
+      <application android:name="com.zing.zalo.zalosdk.oauth.ZaloSDKApplication" />
+
+      <!--Zalo SDK required WebLoginActivity -->
+      <activity
+        android:name="com.zing.zalo.zalosdk.oauth.WebLoginActivity"
+        android:theme="@android:style/Theme.Translucent.NoTitleBar"
+        android:windowSoftInputMode="stateHidden|stateAlwaysHidden"
+        android:configChanges="orientation"
+        android:screenOrientation="portrait">
+      </activity>
+    </config-file>
 
     <!-- Cordova plugin src files -->
     <source-file src="src/android/zalo.java" target-dir="src/com/zalo" />
