@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="cordova-plugin-zalo"
+        version="1.0.0">
+
+  <name>Zalo Connect</name>
+  <description>Integrate Zalo Login feature to Cordova App.</description>
+  <repo>https://github.com/giaidieu/zalo</repo>
+  <license>Apache 2.0</license>
+  <keywords>cordova,device</keywords>
+
+  <preference name="AppID" />
+  <preference name="PackageName" />
+  <preference name="HashKey" />
+
+  <js-module src="www/zalo.js" name="zalo">
+    <clobbers target="zalo" />
+  </js-module>
+  
+  <!-- Android -->
+  <platform name="android">
+  </platform>
+  
+  <!-- iOS -->
+  <platform name="ios">
+    <config-file target="config.xml" parent="/*">
+      <feature name="Device">
+        <param name="ios-package" value="CDVDevice"/>
+      </feature>
+    </config-file>
+    <header-file src="src/ios/CDVDevice.h" />
+    <source-file src="src/ios/CDVDevice.m" />
+  </platform>
+</plugin>
