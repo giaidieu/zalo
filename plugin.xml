@@ -51,7 +51,7 @@
     </config-file>
 
     <!-- Cordova plugin src files -->
-    <source-file src="src/android/zalo.java" target-dir="src/com/zalo" />
+    <source-file src="src/android/Zalo.java" target-dir="src/com/zalo" />
   </platform>
   
   <!-- iOS -->

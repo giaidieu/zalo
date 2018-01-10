@@ -17,4 +17,4 @@ Zalo.test = function(str, callback) {
     }, 'Zalo', 'echo', [str]);
 };
 
-module.exports = CameraPreview;
+module.exports = Zalo;
