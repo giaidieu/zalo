@@ -40,7 +40,7 @@
     <config-file target="AndroidManifest.xml" parent="/manifest/application">
       <application android:name="com.zing.zalo.zalosdk.oauth.ZaloSDKApplication" />
 
-      <!--Zalo SDK required WebLoginActivity -->
+      <!-- Zalo SDK required WebLoginActivity -->
       <activity
         android:name="com.zing.zalo.zalosdk.oauth.WebLoginActivity"
         android:theme="@android:style/Theme.Translucent.NoTitleBar"
@@ -54,9 +54,9 @@
     <source-file src="src/android/Zalo.java" target-dir="src/com/zalo" />
     
     <!-- Zalo libs files -->
-    <lib-file src="src/libs/libZaloSDK-core-v2.3.01.1.jar" />
-    <lib-file src="src/libs/libZaloSDK-openApi-v2.3.01.1.jar" />
-    <lib-file src="src/libs/libZaloSDK-v2.3.01.1-authenext.aar" />
+    <lib-file src="libs/libZaloSDK-core-v2.3.01.1.jar" />
+    <lib-file src="libs/libZaloSDK-openApi-v2.3.01.1.jar" />
+    <lib-file src="libs/libZaloSDK-v2.3.01.1-authenext.aar" />
   </platform>
   
   <!-- iOS -->
