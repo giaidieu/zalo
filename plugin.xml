@@ -6,7 +6,7 @@
 
   <name>Zalo</name>
   <description>Integrate Zalo Login feature to Cordova App.</description>
-  <repo>https://github.com/giaidieu/zalo</repo>
+  <repo>https://github.com/giaidieu/zalo.git</repo>
   <license>Apache 2.0</license>
   <keywords>cordova,zalo,zalo login,giaidieu,drupalapp</keywords>
 

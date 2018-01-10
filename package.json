@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "name": "cordova-plugin-zalo",
+  "cordova_name": "Zalo",
+  "description": "Integrate Zalo login feature to Cordova App.",
+  "license": "Apache 2.0",
+  "repo": "https://github.com/giaidieu/zalo.git",
+  "keywords": [
+    "zalo",
+    "zalo login",
+    "cordova",
+    "giaidieu",
+    "drupalapp"
+  ],
+  "platforms": [
+    "android"
+  ],
+  "engines": []
+}
