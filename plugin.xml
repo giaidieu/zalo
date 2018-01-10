@@ -54,9 +54,9 @@
     <source-file src="src/android/Zalo.java" target-dir="src/com/zalo" />
     
     <!-- Zalo libs files -->
-    <lib-file src="src/libs/libZaloSDK-core-v2.3.01.1.jar" />
-    <lib-file src="src/libs/libZaloSDK-openApi-v2.3.01.1.jar" />
-    <lib-file src="src/libs/libZaloSDK-v2.3.01.1-authenext.aar" />
+    <source-file src="src/libs/libZaloSDK-core-v2.3.01.1.jar" target-dir="libs" />
+    <source-file src="src/libs/libZaloSDK-openApi-v2.3.01.1.jar" target-dir="libs" />
+    <source-file src="src/libs/libZaloSDK-v2.3.01.1-authenext.aar" target-dir="libs" />
   </platform>
   
   <!-- iOS -->
